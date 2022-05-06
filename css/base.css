@@ -6,6 +6,12 @@ body {
   line-height: 1.5;
 }
 
+@media (max-width: 991px) {
+  body {
+    font-size: 18px;
+  }
+}
+
 /* Utility */
 
 .none {
@@ -34,6 +40,22 @@ body {
   margin-right: auto;
 }
 
+@media (max-width: 1399px) {
+  .container {
+    width: 100%;
+  }
+}
+
 .container-wide {
   width: 1536px;
+}
+
+@media (max-width: 1535px) {
+  .container-wide {
+    width: 100%;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
 }
